@@ -1,0 +1,23 @@
+ <!-- INíCIO do CONTEÚDO -->
+ <section class="content-header">
+  <h1>
+    Todos os Restaurantes
+  </h1>
+</section>
+
+
+<section class="content">
+
+  <div class="row">
+          <div *ngFor="let rest of restaurants" class="col-sm-6 col-xs-12">
+            <mt-restaurant [restaurant]="rest"></mt-restaurant> 
+              <!-- a variavel dentro do parenteses [restaurant] é a do component
+              restaurant que criamos, o @Input() faz com que esse component possa receber um parametro na hora de chamar
+              o component, o rest entre aspas é o objeto que esta sendo iterado -->
+          </div>
+          <!-- /.col -->
+  </div>
+
+</section>
+
+<!-- FIM  do CONTEÚDO -->
