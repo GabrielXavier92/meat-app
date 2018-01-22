@@ -1,0 +1,6 @@
+{ //rodar tsc -w nas pasta backend para funcionar o compileOnSave
+   "compilerOptions": {      
+      "outDir": "dist"
+   },
+   "compileOnSave": true
+}
