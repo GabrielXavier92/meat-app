@@ -1,9 +1,0 @@
-instalar o json server
-
-npm install -g json-server
-
-rodar
-
-json-server "nome do arquivo.json"
-
-Ele vai ouvir a porta 3000 por padrao
